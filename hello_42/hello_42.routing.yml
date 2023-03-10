@@ -1,5 +1,5 @@
 hello_42.form:
-  path: '/hello-form'
+  path: '/hello42-form'
   defaults:
     _title: '42 is de answer'
     _form: \Drupal\hello_42\Form\Hello42Form
