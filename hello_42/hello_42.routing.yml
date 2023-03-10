@@ -7,7 +7,7 @@ hello_42.form:
     _access: 'TRUE'
 
 hello_42.hello_42:
-  path: '/hello/{name}'
+  path: '/hello42/{name}'
   defaults:
     _controller: \Drupal\hello_42\Controller\Hello42Controller::hello42
   requirements:
