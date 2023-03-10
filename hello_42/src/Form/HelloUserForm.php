@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\hello_user\Form;
+namespace Drupal\hello_42\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 /**
  * Clase de formulario.
  */
-class HelloUserForm extends FormBase {
+class Hello42Form extends FormBase {
 
     /**
      * ID de formulario.
@@ -18,7 +18,7 @@ class HelloUserForm extends FormBase {
      * @inheritdoc
      */
     public function getFormId() {
-        return 'hello_user_form';
+        return 'hello_42_form';
     }
 
     /**

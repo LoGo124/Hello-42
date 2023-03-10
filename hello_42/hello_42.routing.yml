@@ -1,0 +1,15 @@
+hello_42.form:
+  path: '/hello-form'
+  defaults:
+    _title: '42 is de answer'
+    _form: \Drupal\hello_42\Form\Hello42Form
+  requirements:
+    _access: 'TRUE'
+
+hello_42.hello_42:
+  path: '/hello/{name}'
+  defaults:
+    _controller: \Drupal\hello_42\Controller\Hello42Controller::hello42
+  requirements:
+    _access: 'TRUE'
+    user: \d+
