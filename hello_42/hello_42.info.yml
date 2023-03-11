@@ -1,5 +1,5 @@
 name: Hello 42
 type: module
 description: Una plantilla para modulos de Drupal, basada en la plantilla Hello-user 
-core: 8.x
+core_version_requirement: 9.x
 package: Custom
