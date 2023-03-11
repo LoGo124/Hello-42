@@ -2,7 +2,7 @@
 namespace Drupal\hello_42\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\42\UserInterface;
+use Drupal\user\UserInterface;
 
 class Hello42Controller extends ControllerBase {
 
